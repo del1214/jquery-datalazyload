@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>jquery.datalazyload</title>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="jquery.datalazyload.js"></script>
+    <link rel='stylesheet' href='example.css'/>
+</head>
+<body>
+    <div id="content">
+        <div class="module"></div>
+        <div class="grid-container-1190">
+            <div id="A01" class="lazyload-container lazyload-loading" ></div>
+            <div id="A02" class="lazyload-container lazyload-loading" ></div>
+            <div id="A03" class="lazyload-container lazyload-loading" ></div>
+            <div id="A04" class="lazyload-container lazyload-loading" ></div>
+            <div id="A05" class="lazyload-container lazyload-loading" ></div>
+            <div id="A06" class="lazyload-container lazyload-loading" ></div>
+            <div id="A07" class="lazyload-container lazyload-loading" ></div>
+            <div id="A08" class="lazyload-container lazyload-loading" ></div>
+            <div id="A09" class="lazyload-container lazyload-loading" ></div>
+            <div id="A010" class="lazyload-container lazyload-loading"></div>
+            <div id="A011" class="lazyload-container lazyload-loading"></div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        jQuery('body').dataLazyLoad(function(element){
+            // 符合条件的dom会返回过来，此时可以根据自己的业务逻辑做处理，比如
+            // 加载外部script
+            // 将内部的textarea内容显示出来
+            // ajax请求
+            jQuery(element).css({'background':'black'});
+        });
+    </script>
+</body>
+</html>
