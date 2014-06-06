@@ -5,6 +5,9 @@ jquery,datalazyload
 
 模仿大的电商网站做的数据延时加载
 
+Demo http://del1214.duapp.com/github/datalazyload/
+
+
 div.lazyload-container必须指定高度
 
 模拟了scroll结束事件在结束时判断符合条件的dom并返回
