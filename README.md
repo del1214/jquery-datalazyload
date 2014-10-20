@@ -5,7 +5,7 @@ jquery,datalazyload
 
 模仿大的电商网站做的数据延时加载
 
-Demo http://del1214.duapp.com/github/datalazyload/
+Demo http://dewei.herokuapp.com/github/datalazyload/
 
 
 div.lazyload-container必须指定高度
