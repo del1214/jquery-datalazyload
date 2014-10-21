@@ -15,8 +15,3 @@ div.lazyload-container必须指定高度
 可以配合textarea、ajax或外部脚本来延迟加载数据
 
 写的不好，有什么更好的建议可以联系我del1214@sina.com
-
-
-[foo]: http://example.com/  "Optional Title Here"
-[foo]: http://example.com/  'Optional Title Here'
-[foo]: http://example.com/  (Optional Title Here)
